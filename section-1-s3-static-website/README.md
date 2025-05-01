@@ -62,7 +62,7 @@ This section demonstrates how to automate the deployment of a static website (HT
 - **Version 2.0** page was displayed.
 - Made changes to `index.html` for version 5.0, zipped it again, uploaded to the source bucket.
 - Pipeline executed again and deployed the new version.
-- Refreshed the website – **Version 5.0** appeared successfully.
+- Refreshed the website – **Version 5.0** appeared successfully
 
 ---
 
