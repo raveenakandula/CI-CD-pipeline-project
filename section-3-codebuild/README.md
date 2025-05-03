@@ -86,7 +86,7 @@ Logs confirmed execution of each phase (install, pre_build, build, post_build)
 Successfully implemented a CI/CD pipeline for an Angular application using AWS services. Despite initial CodeCommit limitations, the solution was adapted to use S3, ensuring automated build and deployment via AWS CodePipeline.
 
 ---
-- Created the following `buildspec.yml` file code in VS Code:
+#### Created the following `buildspec.yml` file code in VS Code:
 
 ```yaml
 version: 0.2
