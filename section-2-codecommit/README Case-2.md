@@ -9,7 +9,7 @@ This section demonstrates how I used **AWS CodePipeline** integrated with **GitH
 ### 1. Created a New S3 Bucket for Production
 - Bucket Name: `production-s3website-bucket`
 - Enabled **Static Website Hosting**
-- On opening the bucket’s website URL, I encountered a **403 Forbidden Error** (expected, since no deployment yet).
+- On opening the bucket’s website URL, I encountered a **403 Forbidden Error** (expected, since no deployment yet)
 
 ---
 
