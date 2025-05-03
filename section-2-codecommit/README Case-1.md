@@ -12,7 +12,7 @@ In this section, I demonstrate how to use **AWS CodePipeline** to automate the d
 
 ---
 
-##  Step-by-Step Procedure.
+##  Step-by-Step Procedure
 
 ### 1. Initial Setup & Problem Encountered
 
