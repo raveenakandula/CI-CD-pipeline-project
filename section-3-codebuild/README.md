@@ -63,7 +63,7 @@ Triggered the pipeline again
 ![Pipeline succes ](https://github.com/user-attachments/assets/f42a8b7c-a7a7-4de0-8f85-e6d08f2bd2c3)
 
 
-Logs confirmed execution of each phase (install, pre_build, build, post_build)
+Logs confirmed execution of each phase (install, pre_build, build, post_build).
 
 ### 8. Deployment Verification
 * All built artifacts deployed to s3-bucket-1-raveena
