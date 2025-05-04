@@ -1,4 +1,4 @@
-#  Angular Project Deployment with AWS CodePipeline & S3
+#  Angular Project CI/CD with AWS CodePipeline & S3
 
 This project demonstrates the CI/CD pipeline setup for an Angular application using **AWS CodePipeline**, **CodeBuild**, and **S3 static website hosting**. Due to CodeCommit limitations in new AWS accounts, S3 was used as the source instead of CodeCommit.
 
