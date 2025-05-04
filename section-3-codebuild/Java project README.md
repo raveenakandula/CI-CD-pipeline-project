@@ -31,16 +31,15 @@ This project demonstrates how to automate the build and deployment of a Java app
 ## 3. Buildspec Configuration
  Buildspec-java.yml commands are below 
 
-Lambda Setup
 ## 4. Created AWS Lambda Function
 Created a new Lambda function with runtime: Java 11
 
 Note: The code for this Lambda is not directly visible in the console as it is packaged with external dependencies.
 
 ## 5. Linked Lambda with Build Process
-Ensured the Lambda function name JavaLambdaB8 matches the one referenced in the buildspec-java.yml file.
+Ensured the Lambda function name Javafunction matches the one referenced in the buildspec-java.yml file.
 
-IAM Role Permissions
+
 ## 6. CodeBuild Role Permissions
 Navigated to the CodeBuild Project > Project Details
 
@@ -49,18 +48,21 @@ Clicked the Service Role
 Attached the AWSLambda_FullAccess managed policy to allow Lambda updates from CodeBuild
 
 Pipeline Execution
-7. Buildspec Name Configuration
+## 7. Buildspec Name Configuration
 Encountered a build error initially due to missing buildspec reference
 
 Resolved it by explicitly setting buildspec-java.yml in the Buildspec Name field of the CodeBuild project
 
-8. Final Pipeline Result
-Triggered the pipeline
+## 8. Final Pipeline Result
+Triggered the pipeline successfully
 
 Build stage and post-build Lambda deployment executed successfully
 
-Conclusion
-This project illustrates a complete pipeline for building a Java application and deploying it to AWS Lambda using CodePipeline and CodeBuild. Using S3 as the source and proper IAM permissions, the automation flow was achieved seamlessly.
+![Pipeline success](https://github.com/user-attachments/assets/3263f1d3-0501-4c8a-9da5-981b1381cb95)
+
+
+## Conclusion
+Hence this project shows how to build and deploy a Java application to AWS Lambda using CodePipeline and CodeBuild. By using S3 to store the project files and giving the right permissions, the entire process was successfully automated.
 
 
 
@@ -88,6 +90,6 @@ phases:
   post_build:
     commands:
       - aws lambda update-function-code \
-          --function-name JavaLambdaB8 \
+          --function-name Javafunction \
           --zip-file fileb://target/demo-1.0.0.jar \
           --region ap-south-1
