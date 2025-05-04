@@ -9,7 +9,7 @@ This project demonstrates how to automate the build and deployment of a Java app
 - **Language:** Java 11
 - **Build Tool:** Maven
 - **Deployment Target:** AWS Lambda
-- **CI/CD Services:** AWS S3, CodeBuild, CodePipeline
+- **CI/CD Services:** AWS S3, CodeBuild, CodePipeline.
 
 ---
 
