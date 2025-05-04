@@ -18,7 +18,7 @@
    - Skipped build and test stage
    - Deploy stage: S3 (`website-targetbucket`) with "Extract file before deploy" enabled and canned ACL set to `public-read`
 
-3. **Enabled static website hosting** on `website-targetbucket`.
+3. **Enabled static website hosting** on `website-targetbucket`
 
 4. Uploaded `website.zip` (containing `index.html` and `error.html`) to source bucket.
 
