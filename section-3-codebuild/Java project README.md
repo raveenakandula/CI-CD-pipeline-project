@@ -32,16 +32,16 @@ This project demonstrates how to automate the build and deployment of a Java app
  Buildspec-java.yml commands are below 
 
 Lambda Setup
-4. Created AWS Lambda Function
+## 4. Created AWS Lambda Function
 Created a new Lambda function with runtime: Java 11
 
 Note: The code for this Lambda is not directly visible in the console as it is packaged with external dependencies.
 
-5. Linked Lambda with Build Process
+## 5. Linked Lambda with Build Process
 Ensured the Lambda function name JavaLambdaB8 matches the one referenced in the buildspec-java.yml file.
 
 IAM Role Permissions
-6. CodeBuild Role Permissions
+## 6. CodeBuild Role Permissions
 Navigated to the CodeBuild Project > Project Details
 
 Clicked the Service Role
