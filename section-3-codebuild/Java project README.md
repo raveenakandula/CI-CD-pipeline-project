@@ -47,7 +47,6 @@ Clicked the Service Role
 
 Attached the AWSLambda_FullAccess managed policy to allow Lambda updates from CodeBuild
 
-Pipeline Execution
 ## 7. Buildspec Name Configuration
 Encountered a build error initially due to missing buildspec reference
 
